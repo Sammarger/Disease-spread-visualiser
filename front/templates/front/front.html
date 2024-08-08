@@ -1,0 +1,29 @@
+
+{% extends "front/base.html" %}
+{% block content %}
+    {% if messages %}
+            {% for message in messages %}
+                <div class="alert alert-{{ message.tags }}">
+                    {{ message }}
+                </div>
+            {% endfor %}
+    {% endif %}
+    <section class ="glass">
+        <legend class="border-bottom mb-4">Main Menu</legend>
+            {% for symptom in symptoms %}
+                <article class="media content-section">
+                  <div class="media-body">
+                    <div class="article-metadata">
+                      <a class="article-title" href="#">{{ symptom.date_set }}</a>
+                    </div>
+                      <p class="text-muted">Temperature: {{ symptom.temperature }}°C</a>
+                      <p class="text-muted">Continuous cough: {{ symptom.continuous_cough }}</p>
+                      <p class="text-muted">Loss of senses: {{ symptom.loss_of_senses }}</p>
+                      <p class="text-muted">Potential contact with infected people: {{ symptom.infected_contact }}</p>
+                      <p class="text-muted">User: {{ symptom.user_id }}</p>
+
+                  </div>
+                </article>
+            {% endfor %}
+    </section>
+{% endblock content %}

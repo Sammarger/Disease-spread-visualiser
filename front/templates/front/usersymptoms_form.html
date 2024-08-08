@@ -1,0 +1,20 @@
+{% extends "front/base.html" %}
+{% block content %}
+        <div class="content-section">
+            <section class="glass">
+                <h1>COVID Symptoms Checker</h1>
+                <h2>Please enter the symptoms you have been feeling</h2>
+                <form method="POST">
+                    {% csrf_token %}
+                    <fieldset class="form-group">
+                        {{ form.as_p }}
+                    </fieldset>
+                    <div class="form-group">
+                        <button class="btn btn-outline-info" type="submit">
+                            Update
+                        </button>
+                    </div>
+                </form>
+            </section>
+        </div>
+{% endblock content %}

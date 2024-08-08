@@ -1,0 +1,18 @@
+{% extends "front/base.html" %}
+{% block content %}
+<head>
+    <meta charset="UTF-8">
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <title>Title</title>
+</head>
+<body>
+    <article class="media content-section">
+        <div class="media-body">
+          {% autoescape off %}
+          {{ plot_div }}
+          {% endautoescape %}
+            <a class="nav-item nav-link" href="{% url 'raw_data_table' %}">View Table</a>
+        </div>
+    </article>
+</body>
+{% endblock content %}

@@ -1,0 +1,24 @@
+{% extends "front/base.html" %}
+{% block content %}
+        <div class="content-section">
+            <section class="glass">
+                <h2>Sign Up</h2>
+                <form method="POST">
+                    {% csrf_token %}
+                    <fieldset class="form-group">
+                        {{ form.as_p }}
+                    </fieldset>
+                    <div class="form-group">
+                        <button class="btn btn-outline-info" type="submit">
+                            Sign up
+                        </button>
+                    </div>
+                </form>
+                <div class="borer-top pt-3">
+                    <small class="text-muted">
+                        Existing user? <a class="ml-2" href="{% url 'login' %}">Log in</a>
+                    </small>
+                </div>
+            </section>
+        </div>
+{% endblock content %}

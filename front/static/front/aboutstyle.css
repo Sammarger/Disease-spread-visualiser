@@ -1,0 +1,95 @@
+*{
+     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+h1 {
+    color: #1e634f;
+    font-weight: 600;
+    font-size: 3rem;
+}
+
+ main{
+    min-height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right top, #deffed, #82ffc3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+ }
+  .center_block {
+    background: white;
+    min-height: 95vh;
+    width: 80%;
+
+    background: rgba(255, 255, 255, 0.0);
+    border-radius: 1rem;
+    display: flex;
+
+ }
+  .left_side {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+  }
+  .glass1 {
+    background: white;
+    min-height: 30vh;
+    width: 95%;
+
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 1rem;
+ }
+  .glass2 {
+    background: white;
+    min-height: 30vh;
+    width: 95%;
+
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 1rem;
+ }
+  .glass3 {
+    background: white;
+    min-height: 30vh;
+    width: 95%;
+
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 1rem;
+ }
+
+  .right_side {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+  }
+  .glass4 {
+    background: white;
+    min-height: 30vh;
+    width: 95%;
+
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 1rem;
+ }
+  .glass5 {
+    background: white;
+    min-height: 30vh;
+    width: 95%;
+
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 1rem;
+ }
+  .glass6 {
+    background: white;
+    min-height: 30vh;
+    width: 95%;
+
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 1rem;
+ }

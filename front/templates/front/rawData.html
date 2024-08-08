@@ -1,0 +1,30 @@
+{% extends "front/base.html" %}
+{% block content %}
+<head>
+    <meta charset="UTF-8">
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <title>Title</title>
+</head>
+<body>
+     <article class="media content-section">
+        <table border="1" cellpadding="5" cellspacing="4">
+            <td>Placement</td>
+            <td>Country</td>
+            <td>Total Cases</td>
+            <td>Total Deaths</td>
+            <td>Total Recovered</td>
+            <td>Active Cases</td>
+            {% for row in table %}
+            <tr>
+                <td>{{row.placement}}</td>
+                <td>{{row.country}}</td>
+                <td>{{row.total_cases}}</td>
+                <td>{{row.total_deaths}}</td>
+                <td>{{row.total_recovered}}</td>
+                <td>{{row.active_cases}}</td>
+            </tr>
+            {% endfor %}
+        </table>
+
+</body>
+{% endblock content %}
