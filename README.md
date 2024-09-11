@@ -1,115 +1,11 @@
-<!-----
 
-You have some errors, warnings, or alerts. If you are using reckless mode, turn it off to see inline alerts.
-* ERRORs: 0
-* WARNINGs: 1
-* ALERTS: 48
-
-Conversion time: 15.408 seconds.
+# Visual Spread of Disease NEA - Samuel Margerison 21/05/2021
 
 
-Using this Markdown file:
-
-1. Paste this output into your source file.
-2. See the notes and action items below regarding this conversion run.
-3. Check the rendered output (headings, lists, code blocks, tables) for proper
-   formatting and use a linkchecker before you publish this page.
-
-Conversion notes:
-
-* Docs to Markdown version 1.0β37
-* Thu Aug 08 2024 12:14:45 GMT-0700 (PDT)
-* Source doc: Samuel Margerison NEA Document2
-* Tables are currently converted to HTML tables.
-
-WARNING:
-Inline drawings not supported: look for ">>>>>  gd2md-html alert:  inline drawings..." in output.
-
-* This document has images: check for >>>>>  gd2md-html alert:  inline image link in generated source and store images to your server. NOTE: Images in exported zip file from Google Docs may not appear in  the same order as they do in your doc. Please check the images!
+## {1} Analysis 
 
 
-WARNING:
-You have 5 H1 headings. You may want to use the "H1 -> H2" option to demote all headings by one level.
-
------>
-
-
-<p style="color: red; font-weight: bold">>>>>>  gd2md-html alert:  ERRORs: 0; WARNINGs: 2; ALERTS: 48.</p>
-<ul style="color: red; font-weight: bold"><li>See top comment block for details on ERRORs and WARNINGs. <li>In the converted Markdown or HTML, search for inline alerts that start with >>>>>  gd2md-html alert:  for specific instances that need correction.</ul>
-
-<p style="color: red; font-weight: bold">Links to alert messages:</p><a href="#gdcalert1">alert1</a>
-<a href="#gdcalert2">alert2</a>
-<a href="#gdcalert3">alert3</a>
-<a href="#gdcalert4">alert4</a>
-<a href="#gdcalert5">alert5</a>
-<a href="#gdcalert6">alert6</a>
-<a href="#gdcalert7">alert7</a>
-<a href="#gdcalert8">alert8</a>
-<a href="#gdcalert9">alert9</a>
-<a href="#gdcalert10">alert10</a>
-<a href="#gdcalert11">alert11</a>
-<a href="#gdcalert12">alert12</a>
-<a href="#gdcalert13">alert13</a>
-<a href="#gdcalert14">alert14</a>
-<a href="#gdcalert15">alert15</a>
-<a href="#gdcalert16">alert16</a>
-<a href="#gdcalert17">alert17</a>
-<a href="#gdcalert18">alert18</a>
-<a href="#gdcalert19">alert19</a>
-<a href="#gdcalert20">alert20</a>
-<a href="#gdcalert21">alert21</a>
-<a href="#gdcalert22">alert22</a>
-<a href="#gdcalert23">alert23</a>
-<a href="#gdcalert24">alert24</a>
-<a href="#gdcalert25">alert25</a>
-<a href="#gdcalert26">alert26</a>
-<a href="#gdcalert27">alert27</a>
-<a href="#gdcalert28">alert28</a>
-<a href="#gdcalert29">alert29</a>
-<a href="#gdcalert30">alert30</a>
-<a href="#gdcalert31">alert31</a>
-<a href="#gdcalert32">alert32</a>
-<a href="#gdcalert33">alert33</a>
-<a href="#gdcalert34">alert34</a>
-<a href="#gdcalert35">alert35</a>
-<a href="#gdcalert36">alert36</a>
-<a href="#gdcalert37">alert37</a>
-<a href="#gdcalert38">alert38</a>
-<a href="#gdcalert39">alert39</a>
-<a href="#gdcalert40">alert40</a>
-<a href="#gdcalert41">alert41</a>
-<a href="#gdcalert42">alert42</a>
-<a href="#gdcalert43">alert43</a>
-<a href="#gdcalert44">alert44</a>
-<a href="#gdcalert45">alert45</a>
-<a href="#gdcalert46">alert46</a>
-<a href="#gdcalert47">alert47</a>
-<a href="#gdcalert48">alert48</a>
-
-<p style="color: red; font-weight: bold">>>>>> PLEASE check and correct alert issues and delete this message and the inline alerts.<hr></p>
-
-
-
-# 
-Visual Spread of Disease NEA
-
-
-Samuel Margerison
-
-
-21/05/2021
-
-
-[TOC]
-
-
-
-# 
-**{1} Analysis **
-
-
-## 
-{1.1}   Introduction & Problem Background   
+### {1.1}   Introduction & Problem Background   
 
 In recent years, worldwide pandemics have had lasting effects on the way we look at disease, making people fear for their lives and their loved ones. For example, many people became in tune with hygiene and disease prevention due to the worldwide spread of Coronavirus that has permanently changed the way we live and view disease as a whole. This fear epidemic has been magnified by the increasing number of fake and unreliable news sources using flashy figures and exaggerated headlines in order to hook users, amplifying public fears.
 
@@ -120,38 +16,36 @@ My project also aims to inform the user on whether they may have been in contact
 The main target audience for this project is a wide range of people that want to be informed on the subject but are not data experts. My specific client currently works for the NHS as a graphic designer and believes  that the understanding of data in a visual form is just as important as the data itself.
 
 
-## {1.2}   Research		
+### {1.2}   Research		
 
 For this project I aim to research in a variety of different ways in order to make the model up to my clients standards. Firstly, I will conduct a survey to see what my friends and family found intuitive and what they found impractical about existing data visualisers. I will also conduct my own research on popular disease trackers, identifying what worked and what could be improved. I will then test said programs against mine to see where improvements could be made.
 
 Furthermore, I will research well made computer algorithms that perform web scraping, allowing my program to gather data for various websites across the globe and store said data within a database. Research on how to properly implement this database on graphs and visual aids may also need to occur.
 
 
-### **{1.3.1}	Client Overview**
+### {1.3.1}	Client Overview
 
 My client for this project is my dad, Paul Margerison, who is currently working as a graphic designer for the NHS, and has been working as a graphical designer all of his life. He believes that good and bad data representation can have a major impact on a user's perception of the news as a whole.
 
 For this project, I have prepared a variety of questions related to the exact purpose and look of the program. Since the program is for a specific client, it is extremely important for the developer to maintain contact with the client throughout the production process so they are satisfied with the result.
 
 
-### **{1.3.2}   Interview**
+### {1.3.2}   Interview
 
 
-
-1. ** What kind of information would you like to find within my program? **Statistical and numerical data would be more interesting and important as descriptive data is already easily accessible.
-2. **Would you like there to be a login system? **Yes I would like a login system however if my username and passwords are insecure I would prefer not.
-3. **Should the program focus on a specific country? **I would prefer if the program gave an overview of the world as a whole, while still making the data easily readable.
+1. **What kind of information would you like to find within my program?** Statistical and numerical data would be more interesting and important as descriptive data is already easily accessible.
+2. **Would you like there to be a login system?** Yes I would like a login system however if my username and passwords are insecure I would prefer not.
+3. **Should the program focus on a specific country?** I would prefer if the program gave an overview of the world as a whole, while still making the data easily readable.
 
     **(d) What data about the disease would you like to have on this program?** As mentioned before, an overview of all the key statistics such as death-count, total number of cases, and potentially how these rates change over time.
 
 
-**(e) Would you like to see a map of your local area? **A local map of london may be useful, especially if it is done in real time.
+**(e) Would you like to see a map of your local area?** A local map of London may be useful, especially if it is done in real time.
 
-**(f) Are there any more features you would like to see? **If you were able to add your symptoms, contributing to a map of London, it would be interesting to see what counties are infected.
+**(f) Are there any more features you would like to see?** If you were able to add your symptoms, contributing to a map of London, it would be interesting to see what counties are infected.
 
 
-### 
-        **{1.3.3}   Questionnaire		**
+### {1.3.3}   Questionnaire
 
 I asked my dad to conduct a quick survey with a few of his co-workers, who are also graphic designers working on the NHS website and its usability, in order to flesh out the design of the data visualiser. The results of the 17 surveys are as follows:
 
