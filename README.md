@@ -99,7 +99,7 @@ Though only a small majority of users have requested a symptoms checker, I belie
 
 For this local map I will use information from the COVID symptoms checker:
 
-each user can input the postcode they are currently in, and depending on whether they are likely to have covid, it is then added to a map of london, producing a secondary local map
+each user can input the postcode they are currently in, and depending on whether they are likely to have covid, it is then added to a map of London, producing a secondary local map
 
 
 ### **{1.3.4}  Interview and Questionnaire Summary **
