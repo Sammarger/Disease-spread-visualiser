@@ -1,3 +1,7 @@
+To do:
+- convert all image errors to images
+ - 1.6.2
+
 
 # Visual Spread of Disease NEA - Samuel Margerison 21/05/2021
 
