@@ -1,5 +1,5 @@
 To do:
-- convert all image errors to images
+- convert all image errors to images (Use find, run python command to order files in the same files as the html zip file)
  - 1.6.2
 
 
@@ -53,13 +53,7 @@ For this project, I have prepared a variety of questions related to the exact pu
 
 I asked my dad to conduct a quick survey with a few of his co-workers, who are also graphic designers working on the NHS website and its usability, in order to flesh out the design of the data visualiser. The results of the 17 surveys are as follows:
 
-
-
-<p id="gdcalert1" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image1.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert2">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image1.png "image_tooltip")
-
+![alt_text](images/piechart1.png)
 
 Though I previously asked Paul how I should represent the figures, I still believe that another opinion is needed, but the survey yielded the same results: nobody picked a table and the majority picked a world map.
 
@@ -68,7 +62,7 @@ Though I previously asked Paul how I should represent the figures, I still belie
 <p id="gdcalert2" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image2.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert3">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
-![alt_text](images/image2.png "image_tooltip")
+![alt_text](images/piechart2.png)
 
 
 This result was also expected, however for the sake of my client I will incorporate both suggestions into the project. Using a drop down menu, I will be able to have the program display a lot of data but separate it so each infographic is readable.
@@ -78,7 +72,7 @@ This result was also expected, however for the sake of my client I will incorpor
 <p id="gdcalert3" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image3.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert4">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
-![alt_text](images/image3.png "image_tooltip")
+![alt_text](images/piechart3.png)
 
 
 A login system is the easiest way to keep data secure, while still giving incumbent or new users access to the application. This also allows the program to keep track of the current user's infection status, as well as letting other users know who is infected also.
@@ -88,7 +82,7 @@ A login system is the easiest way to keep data secure, while still giving incumb
 <p id="gdcalert4" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image4.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert5">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
-![alt_text](images/image4.png "image_tooltip")
+![alt_text](images/piechart4.png)
 
 
 Though only a small majority of users have requested a symptoms checker, I believe it is important for users to be able to keep track of when they were likely to have been infected, as well as who they have come into contact with. 
@@ -98,7 +92,7 @@ Though only a small majority of users have requested a symptoms checker, I belie
 <p id="gdcalert5" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image5.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert6">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
-![alt_text](images/image5.png "image_tooltip")
+![alt_text](images/piechart5.png)
 
 
 For this local map I will use information from the COVID symptoms checker:
