@@ -57,38 +57,21 @@ I asked my dad to conduct a quick survey with a few of his co-workers, who are a
 
 Though I previously asked Paul how I should represent the figures, I still believe that another opinion is needed, but the survey yielded the same results: nobody picked a table and the majority picked a world map.
 
-![alt_text](images/piechart2.png)
-
+![PC 2](images/piechart2.png)
 
 This result was also expected, however for the sake of my client I will incorporate both suggestions into the project. Using a drop down menu, I will be able to have the program display a lot of data but separate it so each infographic is readable.
 
-
-
-<p id="gdcalert3" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image3.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert4">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/piechart3.png)
+![PC 3](images/piechart3.png)
 
 
 A login system is the easiest way to keep data secure, while still giving incumbent or new users access to the application. This also allows the program to keep track of the current user's infection status, as well as letting other users know who is infected also.
 
-
-
-<p id="gdcalert4" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image4.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert5">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/piechart4.png)
+![PC 4](images/piechart4.png)
 
 
 Though only a small majority of users have requested a symptoms checker, I believe it is important for users to be able to keep track of when they were likely to have been infected, as well as who they have come into contact with. 
 
-
-
-<p id="gdcalert5" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image5.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert6">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/piechart5.png)
-
+![PC 5](images/piechart5.png)
 
 For this local map I will use information from the COVID symptoms checker:
 
@@ -147,11 +130,6 @@ each user can input the postcode they are currently in, and depending on whether
     32. Choropleth vector map should be created, with colours corresponding to the number of cases
     33. Colour key that should updates colours corresponding to the highest number of cases
 
-	
-
-**		**
-
-
 ### {1.4.2}    System Limitations
 
 
@@ -163,7 +141,6 @@ each user can input the postcode they are currently in, and depending on whether
 
 ## {1.5} 			Existing Systems
 
-
 ### {1.5.1}			CDC COVID Data Tracker
 
 [https://covid.cdc.gov/covid-data-tracker/#county-view](https://covid.cdc.gov/covid-data-tracker/#county-view) 
@@ -172,8 +149,9 @@ The data visualiser used by CDC  uses a drop down menu allowing the user to pick
 
 This way of displaying data is simple to understand as there is no need to read text about the data, only figures corresponding to the colour.
 
-CDC’s data visualisation has a number of problems that could be improved, for instance, this data can’t be accessed offline as it is on a website connected to the internet. As well as this, the diagram only shows the United States data, and though this website is centred around tracking COVID-19 across the United States, it is still an aspect that could be improved.
+CDC’s data visualisation has a number of problems that could be improved, for instance, this data can’t be accessed offline as it is on a website connected to the internet. As well as this, the diagram only shows the United States data, and though this website is centered around tracking COVID-19 across the United States, it is still an aspect that could be improved.
 
+![Existing System 1](images/existingsystem1.png)
 
 ### {1.5.2}		Infectious Diseases Hub
 
@@ -183,6 +161,7 @@ Infectious diseases hub collects data from various health institutes around the 
 
 There are many immediate issues seen with this disease tracker that have simple solutions that I will implement into my tracker. Firstly, the Legend widget does not correspond to the map as there are no green, red or orange areas shaded on the map, rendering the widget useless. Secondly, this map was swiped from google maps and the website needs internet access to open. Finally, above the zoom in/out widget, there is a white square that has no use, making the website seem less professional and less pleasing in a graphical design sense.
 
+![Existing System 2](images/existingsystem2.png)
 
 ## {1.6} 		Solutions 
 
@@ -303,13 +282,7 @@ As data visualisation in python is a new concept to me and the map that I intend
 
     In order to visualise data, I need to collect the data using web scraping: Web scraping is a method of using various internet browsers to extract information.
 
-
-
-<p id="gdcalert6" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline drawings not supported directly from Docs. You may want to copy the inline drawing to a standalone drawing and export by reference. See <a href="https://github.com/evbacher/gd2md-html/wiki/Google-Drawings-by-reference">Google Drawings by reference</a> for details. The img URL below is a placeholder. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert7">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![drawing](https://docs.google.com/drawings/d/12345/export/png)
-
+![Scrape Diagram](images/scrapeDiagram.png)
 
     A chosen scraping tool sends a request to a proxy server that creates a link to a target website. This target website either accepts or rejects the request given by the scraping tool and returns a response to the proxy server, which then relays the response back to the user.
 
@@ -342,13 +315,7 @@ In order to properly web-scrape I will be using various modules including Beauti
 
 The algorithm that extracts code will have to identify the key data specified, order  data into suitable rows and transfer them into a database.
 
-
-
-<p id="gdcalert7" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image6.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert8">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image6.png "image_tooltip")
-
+![alt_text](images/scrapedemo.png)
 
 This image shows the source code for the html of a coronavirus live update chart, where beautiful soup will scan across the page in order to identify the id name of the table, _‘main_table_countries_today’_.
 
@@ -358,21 +325,13 @@ This image shows the source code for the html of a coronavirus live update chart
 
     For this project the software I will be using is Django, which uses a Model, View, Controller architecture. This is the most common architecture among developers as it is able to separate a program of any size into 3 different parts:
 
-
-    
-
-<p id="gdcalert8" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image7.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert9">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image7.png "image_tooltip")
-
+![alt_text](images/mvc.png)
 
 
     In this architecture the user will send a request to the controller, which acts as a link between user and server. The controller processes the request and calls the model, which contains all the data objects and acts as the backend to the whole application. Data is retrieved from the model and  the controller sends this to the view. The view is what the user can currently see, and a response is given on the page. This architecture allows for the model to be modified at any time as it is not coupled with the controller or view, it is only called for.
 
 
     MVC is beneficial to use for my program for numerous reasons:
-
 
 
 * Ease of modification
@@ -397,13 +356,7 @@ In order to make the user system simpler, I will implement a guest system to mak
 
 Django comes with a standard framework structure that makes it very simple to handle HTTP requests all within python. This prevents me from wasting time on building a web framework so I can spend more time on my core objectives.
 
-
-
-<p id="gdcalert9" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image8.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert10">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image8.png "image_tooltip")
-
+![django](images/django.png)
 
 The Django Framework uses python objects known as models to represent the data being used in the program. Data includes SQL tables within a database, which also allows SQL data to be easily interpreted and modified within python.
 
@@ -416,12 +369,7 @@ As well returning the appropriate response to its URL pattern, each  view will a
 
 My Django Project will be made up of two apps, each with their own set of models, views and url patterns, making it much in the long run to repair and maintain the project if something goes wrong. The project will be split into a front app and a user app, such that user related algorithms are contained separately, allowing me to fix problems with each individual app without affecting the whole system.
 
-
-
-<p id="gdcalert10" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image9.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert11">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image9.png "image_tooltip")
+![django heirarchy](images/djangoheir.png)
 
 
 Django has a built-in admin page, allowing me to create, update and delete user accounts, as well as user posts. However, since I intend for this project to be self-sufficient, meaning only the user has the ability to create and edit their profile, I will be making use of this feature for setting up the project and using as little as possible from then on.
