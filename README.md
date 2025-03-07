@@ -53,14 +53,9 @@ For this project, I have prepared a variety of questions related to the exact pu
 
 I asked my dad to conduct a quick survey with a few of his co-workers, who are also graphic designers working on the NHS website and its usability, in order to flesh out the design of the data visualiser. The results of the 17 surveys are as follows:
 
-![alt_text](images/piechart1.png)
+![Pie Chart 1](/Disease-spread-visualiser/images/piechart1.png)
 
 Though I previously asked Paul how I should represent the figures, I still believe that another opinion is needed, but the survey yielded the same results: nobody picked a table and the majority picked a world map.
-
-
-
-<p id="gdcalert2" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image2.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert3">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
 
 ![alt_text](images/piechart2.png)
 
