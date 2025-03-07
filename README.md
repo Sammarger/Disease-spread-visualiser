@@ -53,7 +53,7 @@ For this project, I have prepared a variety of questions related to the exact pu
 
 I asked my dad to conduct a quick survey with a few of his co-workers, who are also graphic designers working on the NHS website and its usability, in order to flesh out the design of the data visualiser. The results of the 17 surveys are as follows:
 
-![Pie Chart 1](piechart1.png)
+![Pie Chart 1](images/piechart1.png)
 
 Though I previously asked Paul how I should represent the figures, I still believe that another opinion is needed, but the survey yielded the same results: nobody picked a table and the majority picked a world map.
 
